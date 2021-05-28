@@ -5,4 +5,8 @@ app.get('/', function (req, res) {
   res.send('Hello World')
 })
 
+app.get('/moon', function (req, res) {
+  res.send('Hello Moon')
+})
+
 module.exports = app

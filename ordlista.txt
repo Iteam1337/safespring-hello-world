@@ -2,3 +2,8 @@ npm, yarn - packethanterare
 express - webbserver för node
 enhetstester, integrationstester, end-to-end (e2e) tester
 github, bitbucket, gitlab, azure-devops - versionshantering
+issue
+pull request - kodändringsbegäran, granskas oftast av annan person innan den integreras med huvudkoden (main eller master)
+code review - granskning av kod, görs oftast innan koden integreras i huvudkoden (main/master)
+branch - kopia av koden där man kan jobba separat med något utan att störa andra, slås sen ihop med main/master
+forka - kopiera ett kodbibliotek så man själv kan ändra på det

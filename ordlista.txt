@@ -1,0 +1,4 @@
+npm, yarn - packethanterare
+express - webbserver för node
+enhetstester, integrationstester, end-to-end (e2e) tester
+github, bitbucket, gitlab, azure-devops - versionshantering

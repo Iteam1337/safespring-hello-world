@@ -1,0 +1,13 @@
+apiVersion: skaffold/v2beta13
+kind: Config
+metadata:
+  name: safespring-hello-world
+build:
+  artifacts:
+  - image: iteam1337/safespring-hello-world
+    docker:
+      dockerfile: Dockerfile
+deploy:
+  kubectl:
+    manifests:
+    - k8s/hello-world-api.yaml

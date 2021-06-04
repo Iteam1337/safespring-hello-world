@@ -5,7 +5,7 @@ it('says hello', async () => {
   const res = await request(server).get('/')
 
   expect(res.statusCode).toEqual(200)
-  expect(res.text).toEqual('Hello World')
+  expect(res.text).toEqual('Hello World!')
 })
 
 it('says hello to the moon', async () => {

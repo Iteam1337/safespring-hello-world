@@ -1,9 +1,16 @@
-npm, yarn - packethanterare
-express - webbserver för node
+npm, yarn - Pakethanterare
+express - Webbserver för node
 enhetstester, integrationstester, end-to-end (e2e) tester
-github, bitbucket, gitlab, azure-devops - versionshantering
-issue - felrapport i exempelvis github
-pull request - kodändringsbegäran, granskas oftast av annan person innan den integreras med huvudkoden (main eller master)
-code review - granskning av kod, görs oftast innan koden integreras i huvudkoden (main/master)
-branch - kopia av koden där man kan jobba separat med något utan att störa andra, slås sen ihop med main/master
-forka - kopiera ett kodbibliotek så man själv kan ändra på det
+github, bitbucket, gitlab, azure-devops - Versionshantering
+issue - Felrapport i exempelvis github
+pull request - Kodändringsbegäran, granskas oftast av annan person innan den integreras med huvudkoden (main eller master)
+code review - Granskning av kod, görs oftast innan koden integreras i huvudkoden (main/master)
+branch - Kopia av koden där man kan jobba separat med något utan att störa andra, slås sen ihop med main/master
+forka - Kopiera en kodbas så man själv kan ändra på det
+CI, Continuous Integration - Hela tiden få in ändringar i kodbasen
+CI-miljö - Testmiljö där den senaste fungerande koden körs
+DevOps - Att utveckling och drift görs av samma personer
+CD, Continuous Delivery - Hela tiden släppa små uppdateringar
+Infrastructure as Code - Definiera din infrastruktur som kod/konfiguration, sätt inte upp något manuellt
+Verical Scaling - Fetare server, mer RAM osv
+Horizontal Scaling - Fler tjänster, enklare om man har microservices
